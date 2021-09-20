@@ -64,9 +64,7 @@
 											<h4>Geplante Anreise:</h4>
 											</div>
 											<div class="col-6 col-12-narrower">
-												<input type="date" id="start" name="trip-start" value="dd.mm.yyyy">	
-												<input type="hidden" name="_captcha" value="false">
-												<input type="text" name="_honey" style="display:none">
+												<input type="date" id="start" name="trip-start" value="1970-01-01">	
 												<input type="hidden" name="_next" value="https://namibtours.github.io/alpha/kontakt/danke.html">
 											</div><div class="col-12">
 												<select name="pax" id="pax">
@@ -97,6 +95,8 @@
 											
 											<div class="col-12">
 												<textarea name="message" id="message" placeholder="Geben Sie Ihre Nachricht ein" rows="6"></textarea>
+												<input type="hidden" name="_autoresponse" value="Danke für Ihre Anfrage!">
+												<input type="hidden" name="_subject" value="Neue Buchungsanfrage - Namib Enviro Tours">
 											</div>
 											<div class="col-12">
 												<ul class="actions">
