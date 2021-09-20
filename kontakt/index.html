@@ -56,7 +56,7 @@
 			<!-- Form -->
 								<section class="box">
 									
-									<form method="post" action="https://formspree.io/f/mleazwor">
+									<form method="post" action="https://formsubmit.co/tilman.becker@gmail.com">
 										<div class="row gtr-uniform gtr-50">
 											<div class="col-6 col-12-mobilep">
 												<input type="text" name="name" id="name" value="" placeholder="Name" />
@@ -65,25 +65,28 @@
 												<input type="email" name="email" id="email" value="" placeholder="E-Mail" />
 											</div>
 											<div class="col-12">
-												<select name="category" id="category">
-													<option value="">- Interessen -</option>
-													<option value="1">Safari - wilde Tiere erleben</option>
-													<option value="1">Natur - unberührte Landschaften entdecken</option>
+												<select name="prio" id="prio">
+													<option value="">Was ist Ihnen am wichtigsten?</option>
+													<option value="Tiere">Safari - wilde Tiere erleben</option>
+													<option value="Natur">Natur - unberührte Landschaften entdecken</option>
 												</select>
 											</div>
 											<div class="col-4 col-12-narrower">
 												<input type="radio" id="luxus" name="unterkunft" checked>
-												<label for="priority-low">Lodges</label>
+												<label for="luxus">Lodges</label>
 											</div>
 											<div class="col-4 col-12-narrower">
 												<input type="radio" id="mittelklasse" name="unterkunft">
-												<label for="priority-normal">Lodges/Gästefarmen</label>
+												<label for="mittelklasse">Lodges/Gästefarmen</label>
 											</div>
 											<div class="col-4 col-12-narrower">
 												<input type="radio" id="camping" name="unterkunft">
-												<label for="priority-high">Camping</label>
+												<label for="camping">Camping</label>
 											</div>
 											<div class="col-6 col-12-narrower">
+												<input type="hidden" name="_captcha" value="false">
+												<input type="text" name="_honey" style="display:none">
+												<input type="hidden" name="_next" value="../generic.html">
 												<input type="checkbox" id="human" name="human" checked>
 												<label for="human">I am a human and not a robot</label>
 											</div>
