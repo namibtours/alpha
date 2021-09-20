@@ -15,13 +15,13 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
+	<header id="header">
 					<h1><a href="../index.html">Namib Enviro Tours</a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="../index.html">Home</a></li>
 							<li>
-								<a href="#" class="icon solid fa-angle-down">Ihre Tour</a>
+								<a href="../index.html" class="icon solid fa-angle-down">Privat geführte Rundreisen</a>
 								<ul>
 									<li><a href="../generic.html">Generic</a></li>
 									<li><a href="../elements.html">Elements</a></li>
@@ -50,13 +50,13 @@
 				<section id="main" class="container">
 					<header>
 						<h2>Kontakt</h2>
-						<p>A generic page for every non-generic situation.</p>
+						<p>Lassen Sie uns gemeinsam Ihren Traumurlaub planen. <br />Sie sind noch auf der Suche nach Inspiration? Dann schauen Sie sich meine Tourbeispiele an.</p>
 					</header>
 
 			<!-- Form -->
 								<section class="box">
 									
-									<form action="https://formsubmit.co/b298c76b70ef5f65020472ab21d5635b" method="POST" />
+									<form method="POST" action="https://formsubmit.co/b298c76b70ef5f65020472ab21d5635b" />
 										<div class="row gtr-uniform gtr-50">
 											<div class="col-6 col-12-mobilep">
 												<input type="text" name="name" id="name" value="" placeholder="Name" />
@@ -65,31 +65,40 @@
 												<input type="email" name="email" id="email" value="" placeholder="E-Mail" />
 											</div>
 											<div class="col-12">
-												<select name="prio" id="prio">
-													<option value="">Was ist Ihnen am wichtigsten?</option>
-													<option value="Tiere">Safari - wilde Tiere erleben</option>
-													<option value="Natur">Natur - unberührte Landschaften entdecken</option>
-												</select>
-											</div>
-											<div class="col-4 col-12-narrower">
-												<input type="radio" id="unterkunft-luxus" name="unterkunft" checked>
-												<label for="unterkunft-luxus">Lodges</label>
-											</div>
-											<div class="col-4 col-12-narrower">
-												<input type="radio" id="unterkunft-mittelklasse" name="unterkunft">
-												<label for="unterkunft-mittelklasse">Lodges/Gästefarmen</label>
-											</div>
-											<div class="col-4 col-12-narrower">
-												<input type="radio" id="unterkunft-camping" name="unterkunft">
-												<label for="unterkunft-camping">Camping</label>
+											<h4>Geplante Anreise:</h4>
 											</div>
 											<div class="col-6 col-12-narrower">
+												<input type="date" id="start" name="trip-start">	
 												<input type="hidden" name="_captcha" value="false">
 												<input type="text" name="_honey" style="display:none">
 												<input type="hidden" name="_next" value="https://namibtours.github.io/alpha/generic.html">
-												<input type="checkbox" id="human" name="human" checked>
-												<label for="human">I am a human and not a robot</label>
+											</div><div class="col-12">
+												<select name="pax" id="pax">
+													<option value="">- Gruppengröße -</option>
+													<option value="2">2 Personen</option>
+													<option value="3">3 Personen</option>
+													<option value="4">4 Personen</option>
+													<option value="5">5 Personen</option>
+													<option value="6">6 Personen</option>
+												</select>
 											</div>
+											<div class="col-12">
+											<h4>Gewünschte Art der Unterkünfte:</h4>
+											</div>
+											<div class="col-4 col-12-narrower">
+											
+												<input type="radio" id="unterkunft-luxus" name="unterkunft" value="luxus" checked>
+												<label for="unterkunft-luxus">Lodges</label>
+											</div>
+											<div class="col-4 col-12-narrower">
+												<input type="radio" id="unterkunft-mittelklasse" name="unterkunft" value="mittelklasse">
+												<label for="unterkunft-mittelklasse">Lodges/Gästefarmen</label>
+											</div>
+											<div class="col-4 col-12-narrower">
+												<input type="radio" id="unterkunft-camping" name="unterkunft" value="camping">
+												<label for="unterkunft-camping">Camping</label>
+											</div>
+											
 											<div class="col-12">
 												<textarea name="message" id="message" placeholder="Geben Sie Ihre Nachricht ein" rows="6"></textarea>
 											</div>
@@ -122,7 +131,7 @@
 					<ul class="copyright">
 						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
-				</footer>
+	</footer>
 
 		</div>
 
